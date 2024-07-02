@@ -1,0 +1,586 @@
+repo_name: huhuhuHR/ant-design-vue-pro
+report_id: 63e8d045ce8e36f46cac009f11c116a2
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-02T01:28:19+00:00'
+requested_by: sendya
+provider: github
+branch: master
+detected_tools_count: 41
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro
+  detection_source: Repo Metadata
+- name: Less
+  description: The dynamic stylesheet language
+  website_url: http://lesscss.org/
+  version: 3.13.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1170/default_957cbc0168b4d37265e264469c888f776e57f42c.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sendya
+  last_updated_on: 2019-02-23 11:41:32.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/src/components/AvatarList/Item.jsx
+  detection_source: src/components/AvatarList/Item.jsx
+  last_updated_by: Sendya
+  last_updated_on: 2020-07-01 07:53:46.000000000 Z
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  version: 2.6.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sendya
+  last_updated_on: 2019-02-23 11:41:32.000000000 Z
+- name: vuex
+  description: Centralized State Management for Vue.js.
+  website_url: https://vuex.vuejs.org
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/6705/6128107.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Sendya
+  last_updated_on: 2019-10-21 12:46:42.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.14.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: babel.config.js
+  last_updated_by: Sendya
+  last_updated_on: 2019-10-21 12:46:42.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Sendya
+  last_updated_on: 2019-02-23 11:41:32.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro
+  detection_source: Repo Metadata
+- name: NGINX
+  description: A high performance free open source web server powering busiest sites
+    on the Internet.
+  website_url: http://nginx.org
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/deploy/nginx.conf
+  detection_source: deploy/nginx.conf
+  last_updated_by: Sendya
+  last_updated_on: 2021-07-26 06:19:34.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Sendya
+  last_updated_on: 2019-01-11 06:12:24.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: Sendya
+  last_updated_on: 2018-10-20 08:19:01.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Sendya
+  last_updated_on: 2019-02-23 11:41:32.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sendya
+  last_updated_on: 2019-02-23 11:41:32.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.21.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sendya
+  last_updated_on: 2021-07-12 18:13:19.000000000 Z
+- name: lodash.pick
+  description: The lodash method `_.pick` exported as a module
+  package_url: https://www.npmjs.com/lodash.pick
+  version: 4.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16970/default_277303773c2bdb575ee8f4bfe869f0a33d6755b2.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sendya
+  last_updated_on: 2020-03-12 06:12:58.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution in lodash
+    cve_id: CVE-2020-8203
+    cve_url: https://github.com/advisories/GHSA-p6mc-m468-83gw
+    detected_date: Jan 25
+    severity: high
+    first_patched:
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sendya
+  last_updated_on: 2019-02-23 11:41:32.000000000 Z
+  vulnerabilities:
+  - name: 'Path Traversal: ''dir/../../filename'' in moment.locale'
+    cve_id: CVE-2022-24785
+    cve_url: https://github.com/advisories/GHSA-8hfj-j24r-96c4
+    detected_date: Apr 9
+    severity: high
+    first_patched: 2.29.2
+  - name: Moment.js vulnerable to Inefficient Regular Expression Complexity
+    cve_id: CVE-2022-31129
+    cve_url: https://github.com/advisories/GHSA-wc69-rhjr-hc9g
+    detected_date: Jul 7
+    severity: high
+    first_patched: 2.29.4
+- name: "@antv/data-set"
+  description: Data set with state management
+  package_url: https://www.npmjs.com/@antv/data-set
+  version: 0.10.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17920/default_c741d08ac1035482640dcd4a57c59231d0ce4858.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sendya
+  last_updated_on: 2021-05-27 06:49:44.000000000 Z
+- name: "@vue/cli-plugin-babel"
+  description: Babel plugin for vue-cli
+  package_url: https://www.npmjs.com/@vue/cli-plugin-babel
+  version: 4.5.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16006/default_af9df0bc9fa88191d2fe609204c5bd7599c1a797.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sendya
+  last_updated_on: 2021-05-27 06:49:44.000000000 Z
+- name: "@vue/cli-plugin-eslint"
+  description: Eslint plugin for vue-cli
+  package_url: https://www.npmjs.com/@vue/cli-plugin-eslint
+  version: 4.5.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16035/default_b8a893285867e41b5fc4a7631d8fc2da834d778c.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sendya
+  last_updated_on: 2021-05-27 06:49:44.000000000 Z
+- name: "@vue/cli-plugin-unit-jest"
+  description: Unit-jest plugin for vue-cli
+  package_url: https://www.npmjs.com/@vue/cli-plugin-unit-jest
+  version: 4.5.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16558/default_50be6a65e5f7390c20dda2f19371abc1271db012.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sendya
+  last_updated_on: 2021-05-27 06:49:44.000000000 Z
+- name: "@vue/cli-service"
+  description: Local service for vue-cli projects
+  package_url: https://www.npmjs.com/@vue/cli-service
+  version: 4.5.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15990/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sendya
+  last_updated_on: 2021-05-27 06:49:44.000000000 Z
+- name: "@vue/eslint-config-standard"
+  description: Eslint-config-standard for Vue CLI
+  package_url: https://www.npmjs.com/@vue/eslint-config-standard
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16540/default_7be6bee773ad8b04cf2fb7e9ff82f5d7ba648dfd.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sendya
+  last_updated_on: 2021-05-27 06:49:44.000000000 Z
+- name: "@vue/test-utils"
+  description: Utilities for testing Vue components
+  package_url: https://www.npmjs.com/@vue/test-utils
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16231/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sendya
+  last_updated_on: 2021-05-27 06:49:44.000000000 Z
+- name: ant-design-vue
+  description: An enterprise-class UI design language and Vue-based implementation
+  package_url: https://www.npmjs.com/ant-design-vue
+  version: 1.7.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18672/default_7e5294813726a85799fe9193da6ec4c30fc0d4a0.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sendya
+  last_updated_on: 2021-07-12 17:52:37.000000000 Z
+- name: babel-eslint
+  description: Custom parser for ESLint
+  package_url: https://www.npmjs.com/babel-eslint
+  version: 10.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15803/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: liangliangyin
+  last_updated_on: 2020-05-15 03:14:21.000000000 Z
+- name: babel-plugin-import
+  description: Component modular import plugin for babel
+  package_url: https://www.npmjs.com/babel-plugin-import
+  version: 1.13.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16208/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: liangliangyin
+  last_updated_on: 2020-05-15 10:34:43.000000000 Z
+- name: babel-plugin-transform-remove-console
+  description: Remove all console.* calls
+  package_url: https://www.npmjs.com/babel-plugin-transform-remove-console
+  version: 6.9.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17649/default_894a45ad01fa93ac472db719cb1ef1b89f2924f0.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sendya
+  last_updated_on: 2021-07-12 17:52:37.000000000 Z
+- name: core-js
+  description: Standard library
+  package_url: https://www.npmjs.com/core-js
+  version: 2.6.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sendya
+  last_updated_on: 2019-10-21 12:46:42.000000000 Z
+- name: eslint-plugin-html
+  description: A ESLint plugin to lint and fix inline scripts contained in HTML files
+  package_url: https://www.npmjs.com/eslint-plugin-html
+  version: 5.0.5
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16129/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: liangliangyin
+  last_updated_on: 2020-05-15 10:34:43.000000000 Z
+- name: eslint-plugin-vue
+  description: Official ESLint plugin for Vue.js
+  package_url: https://www.npmjs.com/eslint-plugin-vue
+  version: 5.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15950/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sendya
+  last_updated_on: 2021-07-12 17:52:37.000000000 Z
+- name: less-loader
+  description: A Less loader for webpack. Compiles Less to CSS
+  package_url: https://www.npmjs.com/less-loader
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15989/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sendya
+  last_updated_on: 2020-03-12 06:12:58.000000000 Z
+- name: lodash.clonedeep
+  description: The lodash method `_.cloneDeep` exported as a module
+  package_url: https://www.npmjs.com/lodash.clonedeep
+  version: 4.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16539/default_50be6a65e5f7390c20dda2f19371abc1271db012.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sendya
+  last_updated_on: 2020-03-12 06:12:58.000000000 Z
+- name: lodash.get
+  description: The lodash method `_.get` exported as a module
+  package_url: https://www.npmjs.com/lodash.get
+  version: 4.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16377/default_b5c8f3c8e46d368f74a982d06d7f13291fe651ea.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sendya
+  last_updated_on: 2020-03-12 06:12:58.000000000 Z
+- name: md5
+  description: Js function for hashing messages with MD5
+  package_url: https://www.npmjs.com/md5
+  version: 2.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16342/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sendya
+  last_updated_on: 2019-02-23 11:41:32.000000000 Z
+- name: nprogress
+  description: Simple slim progress bars
+  package_url: https://www.npmjs.com/nprogress
+  version: 0.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17061/default_23002b02644a8cb313a0f53f43df271731022a9e.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sendya
+  last_updated_on: 2019-02-23 11:41:32.000000000 Z
+- name: store
+  description: A localStorage wrapper for all browsers without using cookies or flash
+  package_url: https://www.npmjs.com/store
+  version: 2.0.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18478/default_6441f53d6a389f92c1e16b01717cd1d37a1809fd.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sendya
+  last_updated_on: 2020-05-02 12:50:22.000000000 Z
+- name: vue
+  description: Vue
+  package_url: https://www.npmjs.com/vue
+  version: 2.6.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sendya
+  last_updated_on: 2019-02-23 11:41:32.000000000 Z
+- name: vue-i18n
+  description: Internationalization plugin for Vue.js
+  package_url: https://www.npmjs.com/vue-i18n
+  version: 8.24.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16963/default_ebf16e0c8af5e95030933d9e01479224b6665289.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sendya
+  last_updated_on: 2021-07-12 18:13:19.000000000 Z
+- name: vue-router
+  description: Official router for Vue.js 2
+  package_url: https://www.npmjs.com/vue-router
+  version: 3.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15969/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sendya
+  last_updated_on: 2021-07-12 18:13:19.000000000 Z
+- name: vue-template-compiler
+  description: Template compiler for Vue 2.0
+  package_url: https://www.npmjs.com/vue-template-compiler
+  version: 2.6.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15850/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/huhuhuHR/ant-design-vue-pro/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Sendya
+  last_updated_on: 2021-07-12 18:13:19.000000000 Z
